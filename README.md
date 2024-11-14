@@ -1,4 +1,4 @@
-Here is a sample `README.md` file for the `user_register_form_override` module:
+Here is `README.md` file for the `user_register_form_override` module:
 
 ---
 
