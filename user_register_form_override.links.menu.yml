@@ -1,0 +1,6 @@
+user_register_form_override.settings:
+  title: 'User Register Form Override'
+  description: 'Configure text overrides for the user registration form.'
+  parent: 'user.admin_index'
+  route_name: 'user_register_form_override.settings'
+  weight: 100

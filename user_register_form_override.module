@@ -1,0 +1,20 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function user_register_form_override_form_user_register_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  $config = \Drupal::config('user_register_form_override.settings');
+
+  // Override email help text.
+  if (isset($form['account']['mail']['#description'])) {
+    $form['account']['mail']['#description'] = $config->get('email_help_text');
+  }
+
+  // Override username help text.
+  if (isset($form['account']['name']['#description'])) {
+    $form['account']['name']['#description'] = $config->get('username_help_text');
+  }
+}

@@ -1,0 +1,8 @@
+name: 'User Register Form Override'
+type: module
+description: 'Overrides specific text on the user registration form and provides a settings page.'
+core_version_requirement: ^10 | ^11
+package: Custom
+dependencies:
+  - drupal:field
+configure: user_register_form_override.settings
