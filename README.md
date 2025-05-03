@@ -50,7 +50,7 @@ The **User Register Form Override** module provides a simple way to customize th
 
 3. **Verify Changes**:
    - Visit the `/user/register` page to ensure the updated text is displayed correctly.
-
+   ![Screenshot](readme-screenshot.jpg)
 ## Use Cases
 
 - **Custom Security Policies**: Enforce specific instructions for usernames or email requirements.
