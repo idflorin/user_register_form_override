@@ -1,7 +1,7 @@
 {
   "name": "idflorin/user_register_form_override",
   "description": "Edit Email and Username Help Text from /user/register",
-  "type": "drupal-module",
+  "type": "drupal-custom-module",
   "license": "MIT",
   "version": "1.0.0",
   "require": {
